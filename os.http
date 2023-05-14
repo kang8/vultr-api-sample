@@ -1,0 +1,7 @@
+GET https://api.vultr.com/v2/os
+Authorization: Bearer {{TOKEN}}
+
+###
+
+GET https://api.vultr.com/v2/startup-scripts
+Authorization: Bearer {{TOKEN}}

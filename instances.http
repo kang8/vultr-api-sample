@@ -1,0 +1,22 @@
+GET https://api.vultr.com/v2/instances
+Authorization: Bearer {{TOKEN}}
+
+###
+
+DELETE https://api.vultr.com/v2/instances/{{DEL_INS_ID}}
+Authorization: Bearer {{TOKEN}}
+
+###
+
+POST https://api.vultr.com/v2/instances
+Authorization: Bearer {{TOKEN}}
+Content-Type: application/json
+
+{
+    "region": "nrt",
+    "plan": "vhp-1c-1gb-amd",
+    "os_id": 535,
+    "sshkey_id": ["{{SSH_KEY}}"],
+    "backups": "disabled",
+    "ddos_protection": false
+}

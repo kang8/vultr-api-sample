@@ -1,0 +1,4 @@
+GET https://api.vultr.com/v2/ssh-keys
+Authorization: Bearer {{TOKEN}}
+
+###
