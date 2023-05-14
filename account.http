@@ -1,0 +1,2 @@
+GET https://api.vultr.com/v2/account
+Authorization: Bearer {{TOKEN}}
